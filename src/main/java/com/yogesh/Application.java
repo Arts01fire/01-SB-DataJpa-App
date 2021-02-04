@@ -13,6 +13,8 @@ import com.yogesh.repo.StudentRepo;
 public class Application {
 
 	public static void main(String[] args) {
+
+              System.out.println("Welcome");
 		
 		ConfigurableApplicationContext context = SpringApplication.run(Application.class, args);
 		StudentRepo studentRepository = context.getBean(StudentRepo.class);
